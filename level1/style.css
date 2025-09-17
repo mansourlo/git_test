@@ -1,0 +1,55 @@
+body{
+    background: #101d42;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+nav{
+    background:white;
+    color: black;
+    border-radius: 3px;
+    box-shadow: 4px 3px 4px #00B9E2
+}
+header{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background: white;
+    color: black;
+    border-radius: 300px;
+}
+
+.self{
+    
+    display: flex;
+    border: #00B9E2 solid;
+    border-radius: 23px;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.bio{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 19px;
+    text-align: center;
+}
+nav p:hover{
+    color: #00B9E2;
+    
+}
+details:hover{
+    color: #00B9E2;   
+}
+.navi{
+    display: flex;
+    justify-content: space-around;
+    flex-direction:row-reverse;
+}
+img:hover{
+    opacity: 0.8;
+}
